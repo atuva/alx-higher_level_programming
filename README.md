@@ -56,3 +56,14 @@ Concepts covered:
 * What are dictionary and how to use them
 * What is a lambda function
 * What is map, reduce and map functions
+
+### 0x05. Python - Exceptions
+Learning about python errors and exceptions
+
+Concepts covered:
+* The difference between errors and exceptions
+* What are exceptions and how to use them
+* When do we need to use exceptions
+* How to correctly handle an exception
+
+
