@@ -67,3 +67,15 @@ Concepts covered:
 * How to correctly handle an exception
 
 
+### 0x06-python-classes
+Learning about OOP
+
+Concepts covered:
+* What is OOP
+* What is a class
+* What is an object and an instance
+* What is the difference between a class and an object or instance
+* What is an attribute
+* What are and how to use public, protected and private attributes
+
+
