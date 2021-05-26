@@ -55,7 +55,7 @@ class Square:
             value: The position tuple
         '''
         if isinstance(val, tuple) and len(val) == 2:
-            if isinstance(val[0], int) and isinstance(val[1],int):
+            if isinstance(val[0], int) and isinstance(val[1], int):
                 if val[0] >= 0 and val[1] >= 0:
                     self.__position = val
         else:
@@ -74,9 +74,11 @@ class Square:
         if self.size == 0:
             print()
         else:
-            i = 0
-            j = 0
-            for i in range(self.__size):
-                for j in range(self.__size):
+            for i in range(self.__position[1]):
+                print()
+            for j in range(self.__size):
+                for k in range(self.__position[0]):
+                    print(" ", end="")
+                for k in range(self.__size):
                     print("#", end="")
                 print()
