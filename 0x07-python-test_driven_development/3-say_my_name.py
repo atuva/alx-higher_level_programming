@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 '''Contains a function that prints a string with first and last name
 example:
     My name is <first name> <last name>
