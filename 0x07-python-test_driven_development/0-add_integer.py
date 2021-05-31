@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-
+'''Simple addition function
+Contains function add integere  that adss two integers
+'''
 
 def add_integer(a, b=98):
     '''Functin that adds two integers
