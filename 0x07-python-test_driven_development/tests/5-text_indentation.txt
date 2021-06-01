@@ -1,0 +1,37 @@
+Initial import
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+Missing Parameters
+>>> text_indentation()
+Traceback (most recent call last):
+...
+TypeError: text_indentation() missing 1 required positional argument: 'text'
+
+
+Non String type Parameter
+>>> text_indentation(None)					      
+Traceback (most recent call last):
+...
+TypeError: text must be a string
+
+>>> text_indentation(5)
+Traceback (most recent call last):
+...
+TypeError: text must be a string
+
+>>> text_indentation(5.95)
+Traceback (most recent call last):
+...
+TypeError: text must be a string
+
+
+Correct Parameter
+>>> text  = "My name. Is Alfred? My skills: Making stuff"
+>>> text_indentation(text)
+My name.
+<BLANKLINE>
+Is Alfred?
+<BLANKLINE>
+My skills:
+<BLANKLINE>
+Making stuff
