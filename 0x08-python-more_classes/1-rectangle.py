@@ -27,7 +27,6 @@ class Rectangle:
         else:
             self.__height = height
 
-
     @property
     def width(self):
         '''Returns the width property'''
