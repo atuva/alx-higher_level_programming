@@ -79,3 +79,28 @@ Concepts covered:
 * What are and how to use public, protected and private attributes
 
 
+### 0x07. Python - Test-driven development
+Learning how to write tests
+
+Concepts covered:
+* What’s an interactive test
+* Why tests are important
+* How to write Docstrings to create tests
+* How to write documentation for each module and function
+* What are the basic option flags to create tests
+* How to find edge cases
+
+### 0x08. Python - More Classes and Objects
+Expounding more on classes
+
+Concepts covered:
+* What is Data Abstraction, Data Encapsulation, and Information Hiding
+* What is a property
+* What is the difference between an attribute and a property in Python
+* What is the Pythonic way to write getters and setters in Python
+* What are the special __str__ and __repr__ methods and how to use them
+* What is the difference between __str__ and __repr__
+* What is a class attribute
+* What is the difference between a object attribute and a class attribute
+* What is a class method
+* What is a static method
