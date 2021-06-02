@@ -60,5 +60,9 @@ A function that prints a text with 2 new lines after each of these characters:
 > * You are not allowed to import any module
 
 
-### 
-
+### tests/6-max_integer_test.py
+A unittests for the function `def max_integer(list=[]):`
+> * Your test file should be inside a folder `tests`
+> * You have to use the `unittest module`
+> * Your test file should be python files (extension: `.py`)
+> * Your test file should be executed by using this command: `python3 -m unittest tests.6-max_integer_test`
