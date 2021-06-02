@@ -104,3 +104,19 @@ Concepts covered:
 * What is the difference between a object attribute and a class attribute
 * What is a class method
 * What is a static method
+
+
+### 0x09-python-everything_is_object
+Looking at how python works with different types of objects
+
+Concepts covered:
+* What is the difference between immutable object and mutable object
+* What is a reference
+* What is an assignment
+* What is an alias
+* How to know if two variables are identical
+* How to know if two variables are linked to the same object
+* How to display the variable identifier (which is the memory address in the CPython implementation)
+* What is mutable and immutable
+* What are the built-in mutable types
+* What are the built-in immutable types
