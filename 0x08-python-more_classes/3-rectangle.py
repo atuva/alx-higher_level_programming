@@ -13,8 +13,19 @@ class Rectangle:
             width (int): The width of the rectangle
             height (int): The height of the rectangle
         '''
-        self.__width = width
-        self.__height = height
+        if not isinstance(width, int):
+            raise TypeError('width must be an integer')
+        elif width < 0:
+            raise ValueError('width must be >= 0')
+        else:
+            self.__width = width
+
+        if not isinstance(height, int):
+            raise TypeError('height must be an integer')
+        elif height < 0:
+            raise ValueError('height must be >= 0')
+        else:
+            self.__height = height
 
     @property
     def width(self):
@@ -69,12 +80,11 @@ class Rectangle:
         return 2 * (self.__width + self.__height)
 
     def __str__(self):
-        '''Prints the rectangle with the char #'''
+        '''Prints the rectangle using char #'''
         shape = ''
         for i in range(self.__height):
             for j in range(self.__width):
                 shape += '#'
             if i != self.__height - 1:
                 shape += '\n'
-
         return shape
