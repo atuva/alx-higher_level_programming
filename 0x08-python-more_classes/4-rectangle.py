@@ -70,10 +70,16 @@ class Rectangle:
 
     def __str__(self):
         '''Prints the rectangle with the char #'''
-        
-        for i in range(self.__height):
-            for j in range(self.__width):
+        shape = ''
+        for i in range(int(self.__height)):
+            for j in range(int(self.__width)):
                 shape += '#'
-            shape += '\n'
-
+            if i != self.__height - 1:
+                shape += '\n'
         return shape
+
+    def __repr__(self):
+        '''
+        Returns string representation of the Rectangle
+        '''
+        return "Rectangle({}, {})".format(self.__width, self.__height)
