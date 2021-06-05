@@ -27,7 +27,7 @@ class Student:
             attrs (list): A list of required attributes
         '''
         new_dict = {}
-        if attrs:
+        if attrs is not None:
             for k, v in self.__dict__.items():
                 if k in attrs:
                     new_dict[k] = v
