@@ -156,3 +156,15 @@ Concepts covered:
 * What is deserialization
 * How to convert a Python data structure to a JSON string
 * How to convert a JSON string to a Python data structure
+
+
+### 0x0C-python-almost_a_circle
+A review on everything about python so far.
+
+New concepts covered:
+* What is Unit testing and how to implement it in a large project
+* How to serialize and deserialize a Class
+* How to write and read a JSON file
+* What is *args and how to use it
+* What is **kwargs and how to use it
+* How to handle named arguments in a function
