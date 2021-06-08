@@ -20,28 +20,11 @@ class Rectangle(Base):
             y:
             id (int): The id of the instance
         '''
-        if type(width) is not int:
-            raise TypeError("width must be an integer")
-        elif type(height) is not int:
-            raise TypeError("height must be an integer")
-        elif type(x) is not int:
-            raise TypeError("x must be an integer")
-        elif type(y) is not int:
-            raise TypeError("y must be an integer")
-        elif width <= 0:
-            raise ValueError("width must be > 0")
-        elif height <= 0:
-            raise ValueError("height must be > 0")
-        elif x < 0:
-            raise ValueError("x must be >= 0")
-        elif y < 0:
-            raise ValueError("y must be >= 0")
-
         super().__init__(id)
-        self.__width = width
-        self.__height = height
-        self.__x = x
-        self.__y = y
+        self.width = width
+        self.height = height
+        self.x = x
+        self.y = y
 
     @property
     def width(self):
@@ -59,7 +42,7 @@ class Rectangle(Base):
         Args:
             value (int): The value to be set as the width
         '''
-        if type(value) != int:
+        if type(value) is not int:
             raise TypeError("width must be an integer")
         elif value <= 0:
             raise ValueError("width must be > 0")
