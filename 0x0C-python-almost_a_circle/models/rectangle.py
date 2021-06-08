@@ -87,7 +87,7 @@ class Rectangle(Base):
             value (int): The value to be set as x
         '''
         if type(value) is not int:
-            raise TypeError("x must be an integer")            
+            raise TypeError("x must be an integer")
         elif value < 0:
             raise ValueError("width must be >= 0")
         self.__x = value
