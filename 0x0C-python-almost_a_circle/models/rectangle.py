@@ -123,10 +123,18 @@ class Rectangle(Base):
 
     def display(self):
         '''
-        prints in stdout the Rectangle instance with the character '#'
+        Prints in stdout the Rectangle instance with the character '#'
         '''
         for i in range(self.__height):
             for j in range(self.__width):
                 print('#', end='')
                 if j == self.__width - 1:
                     print()
+
+    def __str__(self):
+        '''
+        Returns string representation of the instance
+        '''
+        return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id, self.__x,
+                                                       self.__y, self.__width,
+                                                       self.__height)
