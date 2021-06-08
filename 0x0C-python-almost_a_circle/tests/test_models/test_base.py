@@ -5,6 +5,7 @@ Test module for the base.py file
 import unittest
 from models.base import Base
 
+
 class TestBaseClass(unittest.TestCase):
     def setUp(self):
         self.b1 = Base()

@@ -63,7 +63,7 @@ class TestRectangleClass(unittest.TestCase):
 
         with self.assertRaises(ValueError):
             r = Rectangle(6, 0)
-            
+
         with self.assertRaises(ValueError):
             r = Rectangle(-2, -3)
 
@@ -90,7 +90,7 @@ class TestRectangleClass(unittest.TestCase):
         self.assertEqual(self.rec.height, 5)
         self.assertEqual(self.rec.x, 0)
         self.assertEqual(self.rec.y, 0)
-    
+
     def test_attributes_setters(self):
         '''
         Test that setter methods work correctly
@@ -120,22 +120,22 @@ class TestRectangleClass(unittest.TestCase):
         with self.assertRaises(TypeError):
             self.rec.x = "r"
 
-        with self.assertRaises(ValueError): 
+        with self.assertRaises(ValueError):
             self.rec.width = 0
 
-        with self.assertRaises(ValueError): 
+        with self.assertRaises(ValueError):
             self.rec.height = 0
 
-        with self.assertRaises(ValueError): 
+        with self.assertRaises(ValueError):
             self.rec.width = -20
 
-        with self.assertRaises(ValueError): 
+        with self.assertRaises(ValueError):
             self.rec.height = -20
 
-        with self.assertRaises(ValueError): 
+        with self.assertRaises(ValueError):
             self.rec.x = -20
 
-        with self.assertRaises(ValueError): 
+        with self.assertRaises(ValueError):
             self.rec.y = -20
 
     def test_area(self):
