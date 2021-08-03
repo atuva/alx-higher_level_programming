@@ -5,12 +5,11 @@ const num = Number(argv[2]);
 if (isNaN(num)) {
   console.log('Missing size');
 } else {
-  let square = '';
-  for (let i = 0; i < num; i++) {
-    for (let j = 0; j < num; j++) {
-      square = square + 'X';
-    }
-    square = square + '\n';
+  let square = 'X';
+  for (let i = 1; i < num; i++) {
+    square = square + 'X';
   }
-  console.log(square);
+  for (let j = 0; j < num; j++) {
+    console.log(square);
+  }
 }
