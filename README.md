@@ -203,3 +203,13 @@ Concepts covered:
 * How to manipulate dictionary
 * How to import a file
 
+### 0x13-javascript_objects_scopes_closures
+Learning about JS
+Concepts covered:
+* How to create an object in JavaScript
+* What this means
+* What undefined means
+* Why the variable type and scope is important
+* What is a closure
+* What is a prototype
+* How to inherit an object from another
