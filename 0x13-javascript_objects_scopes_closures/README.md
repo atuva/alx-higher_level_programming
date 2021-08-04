@@ -44,3 +44,14 @@ A function that returns the number of occurrences in a list:
 ### 8-esrever.js
 A function that returns the reversed version of a list:
 * Prototype: `exports.esrever = function (list)`
+
+### 9-logme.js
+A function that prints the number of arguments already printed and the new argument value.
+* Prototype: `exports.logMe = function (item)`
+* Output format: `<number arguments already printed>: <current argument value>`
+
+### 10-converter.js
+A function that converts a number from base 10 to another base passed as argument:
+* Prototype: `exports.converter = function (base)`
+* You are not allowed to import any file
+* You are not allowed to declare any new variable (`var`, `let`, etc..)
