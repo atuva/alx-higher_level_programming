@@ -10,9 +10,9 @@ class Square extends Sq {
         line = line + 'X';
       }
     } else {
-      line = 'C';
+      line = c;
       for (let i = 1; i < this.width; i++) {
-        line = line + 'C';
+        line = line + c;
       }
     }
     // Print all the lines
