@@ -195,6 +195,15 @@ Concepts covered:
 * What are subqueries
 * What are JOIN and UNION
 
+### 0x0F-python-object_relational_mapping
+Learning about ORMs
+Concepts covered:
+* How to connect to a MySQL database from a Python script
+* How to SELECT rows in a MySQL table from a Python script
+* How to INSERT rows in a MySQL table from a Python script
+* What ORM means
+* How to map a Python Class to a MySQL table
+
 ### 0x12-javascript-warm_up
 An Introduction to Javascript
 Concepts covered:
