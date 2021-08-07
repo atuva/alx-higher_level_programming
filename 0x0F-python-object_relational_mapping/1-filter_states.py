@@ -1,12 +1,14 @@
 #!/usr/bin/python3
 '''
 Contains a MySQLdb script that performs read operations on a database
+It lists all states with a name starting with "N"
 '''
+
+
 import MySQLdb
 from sys import argv
 
 if __name__ == "__main__":
-    '''Selects records from a database'''
     username = argv[1]
     password = argv[2]
     db_name = argv[3]
