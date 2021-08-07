@@ -11,11 +11,13 @@ if __name__ == "__main__":
     password = argv[2]
     db_name = argv[3]
 
+	
+
     db = MySQLdb.connect("localhost", username, password, db_name)
 
     cursor = db.cursor()
 
-    cursor.execute("SELECT * FROM states")
+    cursor.execute("SELECT * FROM states ORDER BY id")
     data = cursor.fetchall()
 
     for row in data:
