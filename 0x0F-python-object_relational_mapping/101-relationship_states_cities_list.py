@@ -18,12 +18,12 @@ if __name__ == "__main__":
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    query = session.query(State).all()
+    query = session.query(State).order_by(State.id).all()
 
     for state in query:
         print("{}: {}".format(state.id, state.name))
 
         for city in state.cities:
-            print("{:>4}: {}".format(city.id, city.name))
+            print("    {}: {}".format(city.id, city.name))
 
     session.close()
