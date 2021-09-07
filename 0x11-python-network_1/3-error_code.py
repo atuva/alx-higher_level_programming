@@ -4,7 +4,7 @@ Module contains script for making requests that also handles exceptions
 '''
 import urllib.request
 from urllib.error import URLError
-Import sys
+import sys
 
 if __name__ == '__main__':
     try:
