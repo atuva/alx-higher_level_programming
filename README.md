@@ -213,3 +213,16 @@ Concepts covered:
 * What is a closure
 * What is a prototype
 * How to inherit an object from another
+
+
+### 0x10-python-network_0
+Learning about networks and requests
+Concepts covered:
+* What a URL is
+* What HTTP is
+* How to read a URL
+* The scheme for a HTTP URL
+* What a domain name is
+* What a sub-domain is
+
+
