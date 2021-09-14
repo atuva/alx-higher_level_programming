@@ -1,5 +1,5 @@
 #!/usr/bin/node
-// Prints the number of movies where the character “Wedge Antilles” is present.
+// Gets the contents of a webpage and stores it in a file.
 const argv = require('process').argv;
 const request = require('request');
 const fs = require('fs');
