@@ -255,3 +255,17 @@ Concepts covered:
 * How to make HTTP POST/PUT/etc. request
 * How to fetch JSON resources
 * How to manipulate data from an external service
+
+### 0x15-javascript-web_jquery
+Learning about javascript on the web and JQuery
+Concepts covered:
+* How to select HTML elements in JavaScript
+* How to select HTML elements with JQuery
+* What are differences between ID, class and tag name selectors
+* How to modify an HTML element style
+* How to get and update an HTML element content
+* How to modify the DOM
+* How to make a GET request with JQuery Ajax
+* How to make a POST request with JQuery Ajax
+* How to listen/bind to DOM events
+* How to listen/bind to user events
