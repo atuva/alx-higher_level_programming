@@ -256,6 +256,13 @@ Concepts covered:
 * How to fetch JSON resources
 * How to manipulate data from an external service
 
+### 0x14-javascript-web_scraping
+Learning about webscraping in javasript
+Concepts covered:
+* How to manipulate JSON data
+* How to use `request` and fetch API
+* How to read and write a file using `fs` module
+
 ### 0x15-javascript-web_jquery
 Learning about javascript on the web and JQuery
 Concepts covered:
